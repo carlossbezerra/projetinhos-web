@@ -1,0 +1,100 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #5d023a;
+    color: #333;
+    min-height: 100vh;
+    /* Garante que o corpo ocupe toda a altura da viewport */
+    display: flex;
+    /* Usa flexbox para centralizar o conteúdo */
+    flex-direction: column;
+    /* Alinha os itens verticalmente */
+    align-items: center;
+    /* Centraliza horizontalmente */
+    justify-content: center;
+    /* Centraliza verticalmente */
+}
+
+#note-text {
+    width: calc(100vw - 40px);
+    /* Largura dinâmica, 20px de margem em cada lado */
+    max-width: 500px;
+    /* Largura máxima para telas maiores */
+    height: 200px;
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    resize: vertical;
+    font-size: 1em;
+}
+
+#save-note {
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+    font-size: 1em;
+}
+
+#note-list {
+    list-style: none;
+    padding: 0;
+    width: calc(100vw - 40px);
+    /* Largura dinâmica */
+    max-width: 500px;
+    /* Largura máxima */
+    margin: 0 auto;
+}
+
+#note-list li {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
+    margin-bottom: 5px;
+    border-radius: 5px;
+    word-break: break-word;
+    /* Permite quebrar palavras longas */
+    overflow-wrap: break-word;
+    /* Permite quebrar palavras longas */
+
+}
+
+#note-list li .delete-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h1 {
+    color: #007bff;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+/* Estilos para telas menores */
+@media (max-width: 500px) {
+    #note-text {
+        max-width: 90%;
+        /* Ocupa quase toda a largura */
+    }
+
+    #note-list {
+        max-width: 90%;
+        /* Ocupa quase toda a largura */
+    }
+
+    h1 {
+        font-size: 1.5em;
+        /* Diminui o tamanho do título */
+    }
+}

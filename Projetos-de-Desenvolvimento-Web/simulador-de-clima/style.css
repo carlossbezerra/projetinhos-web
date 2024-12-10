@@ -1,0 +1,82 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px; /* Largura máxima em telas grandes */
+  }
+  
+  #weather-icon {
+    font-size: 8em;
+    margin-bottom: 15px;
+    color: #007bff;
+  }
+  
+  #temperature {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #dc3545;
+  }
+  
+  #condition {
+    font-size: 1.5em;
+    color: #28a745;
+  }
+  
+  #update-weather {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #update-weather:hover {
+    background-color: #0069d9;
+  }
+  
+  h1 {
+    color: #007bff;
+    margin-bottom: 30px;
+    font-size: 2em;
+  }
+  
+  /* Media Queries para Responsividade */
+  @media (max-width: 500px) {
+    #weather-container {
+      width: 95%; /* Ocupa quase toda a largura em telas menores */
+      max-width: 400px; /* Limita a largura máxima */
+    }
+    #weather-icon {
+      font-size: 6em; /* Reduz o tamanho do ícone */
+    }
+    #temperature {
+      font-size: 2em; /* Reduz o tamanho da temperatura */
+    }
+    #condition {
+      font-size: 1.2em; /* Reduz o tamanho da condição */
+    }
+    h1{
+      font-size: 1.5em;
+    }
+  }

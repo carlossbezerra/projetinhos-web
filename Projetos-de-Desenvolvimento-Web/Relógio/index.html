@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Relógio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Meu Relógio</h1>
+    <div id="clock">
+        <span id="time"></span>
+        <select id="format">
+            <option value="12">12h</option>
+            <option value="24">24h</option>
+        </select>
+    </div>
+
+    <div id="timer">
+        <h2>Temporizador</h2>
+        <input type="number" id="timer-minutes" value="0" min="0"> minutos
+        <input type="number" id="timer-seconds" value="0" min="0" max="59"> segundos
+        <button id="start-timer">Iniciar</button>
+        <button id="pause-timer" style="display: none;">Pausar</button>
+        <button id="stop-timer" style="display: none;">Parar</button>
+        <span id="timer-display">00:00</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

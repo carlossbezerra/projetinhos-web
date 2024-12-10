@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #f0f0f0; /* Cor de fundo suave */
+  }
+  
+  #clock {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #007bff; /* Azul vibrante */
+  }
+  
+  #format {
+    font-size: 1em;
+    margin-left: 10px;
+    background-color: #6c757d; /* Cinza escuro */
+    color: white; /* Texto branco */
+  }
+  
+  #timer {
+    margin-top: 20px;
+  }
+  
+  #timer input {
+    margin: 0 5px;
+    background-color: #e9ecef; /* Cinza claro */
+    color: #343a40; /* Cinza escuro */
+  }
+  
+  #timer-display {
+    font-size: 2em;
+    margin-top: 10px;
+    color: #28a745; /* Verde vibrante */
+  }
+  
+  
+  #start-timer, #stop-timer{
+      background-color: #dc3545; /* Vermelho vibrante */
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }

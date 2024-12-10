@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>To-Do List</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Minha To-Do List</h1>
+  <div class="input-container">
+    <input type="text" id="new-task" placeholder="Adicione uma nova tarefa...">
+    <select id="priority-select">
+      <option value="alta">Alta</option>
+      <option value="media">Média</option>
+      <option value="baixa">Baixa</option>
+    </select>
+    <button id="add-task">Adicionar</button>
+  </div>
+  <div>
+    <button id="filter-all">Todos</button>
+    <button id="filter-completed">Concluídos</button>
+    <button id="filter-pending">Pendentes</button>
+  </div>
+  <ul id="task-list"></ul>
+  <label class="switch">
+      <input type="checkbox" id="dark-mode-toggle">
+      <span class="slider round"></span>
+  </label>
+  <script src="script.js"></script>
+</body>
+</html>

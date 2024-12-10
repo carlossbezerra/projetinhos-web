@@ -1,0 +1,64 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .calculator {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    /* Adicione um tamanho máximo para a calculadora */
+    max-width: 300px; /* Ajuste conforme necessário */
+  }
+  
+  #display {
+    width: 100%; /* Ocupa toda a largura da calculadora */
+    height: 40px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: right;
+   
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .operator {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .clear {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  #history-display {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    /* Defina uma altura máxima para o histórico */
+    max-height: 100px;
+    overflow-y: auto; /* Adicione uma barra de rolagem */
+    width: 100%; /* Ocupa toda a largura */
+    box-sizing: border-box; /* Inclui padding e border no tamanho */
+  
+  }
+  
+  #history {
+    grid-column: 3/5;
+  }
