@@ -25,6 +25,9 @@ Este repositório contém exemplos de projetos de desenvolvimento web criados co
 1. Clone este repositório.
 2. Abra o arquivo `index.html` (da pasta To-Do List) em um navegador web.
 
+   ![image](https://github.com/user-attachments/assets/128b7443-b7b2-4f23-b61f-0a3b2d70e852)
+
+
 ---
 
 ## 2. Calculadora
@@ -45,6 +48,9 @@ Este repositório contém exemplos de projetos de desenvolvimento web criados co
 1. Clone este repositório.
 2. Abra o arquivo `index.html` (da pasta Calculadora) em um navegador web.
 
+   ![image](https://github.com/user-attachments/assets/4bc1489d-78c0-452b-b360-c78944082520)
+
+
 ---
 
 ## 3. Relógio
@@ -62,6 +68,9 @@ Este repositório contém exemplos de projetos de desenvolvimento web criados co
 
 1. Clone este repositório.
 2. Abra o arquivo `index.html` (da pasta Relógio) em um navegador web.
+
+  ![image](https://github.com/user-attachments/assets/4cbd8bd3-f569-45a2-8835-e82a3fc4f7ac)
+
 
 ---
 
@@ -83,6 +92,9 @@ Este repositório contém exemplos de projetos de desenvolvimento web criados co
 1. Clone este repositório.
 2. Abra o arquivo `index.html` (da pasta Aplicativo-de-Notas) em um navegador web.
 
+   ![image](https://github.com/user-attachments/assets/136191ee-f230-4378-8c9d-074531c02867)
+
+
 ---
 
 ## 5. Simulador de Clima
@@ -100,3 +112,6 @@ Este repositório contém exemplos de projetos de desenvolvimento web criados co
 
 1. Clone este repositório.
 2. Abra o arquivo `index.html` (da pasta Simulador-de-Clima) em um navegador web.
+
+   ![image](https://github.com/user-attachments/assets/3998b659-aae0-49eb-8603-83c8f99e81a8)
+
